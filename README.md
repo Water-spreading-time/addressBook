@@ -7,7 +7,7 @@
 `import AddressBook from '../../components/addressBookNavigation/addressBookNavigation'`
 
 使用组件：
-`
+```
 <address-book :bookList="bookList" :letter="letter">
   <template v-slot:addressBookList>
     <view class="bookList">
@@ -25,7 +25,7 @@
     </view>
   </template>
 </address-book>
-`
+```
 
 # 参数说明
 | 参数                          | 类型    |  必传   | 默认值   |   单位    |           参数说明                       |
@@ -43,7 +43,7 @@
 | navHeight                     | Number  |   false |   44    |     px    |      导航栏高度                          |
 
 # bookList格式
-`
+```
 bookList:[
   {
     key:"A",
@@ -61,4 +61,4 @@ bookList:[
     ]
   }
 ]
-`
+```
