@@ -1,0 +1,66 @@
+{
+	"pages": [
+		{
+			"path": "pages/addbook/addbook",
+			"style": {
+				"navigationBarTitleText": "通讯录",
+				"app-plus" : {
+					"scrollIndicator" : "none",
+					"softinputMode": "adjustResize",
+					"titleNView":{
+						"buttons": [
+							{
+								"float":"right",
+								"colorPressed":"#fff"
+							}
+						],
+						"tags": [{
+							"id": "camera",
+							"tag": "img",
+							"src": "/static/addFriend.png",
+							"position": {
+								"top": "20upx",
+								"right": "10px",
+								"width": "46upx",
+								"height": "46upx"
+							}
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "发现"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "IIICHAT",
+		"navigationBarBackgroundColor": "#EEEEEE",
+		"backgroundColor": "#EEEEEE"
+	},
+	"tabBar":{
+		"color":"#5A5A5A",
+		"selectedColor":"#20BB5B",
+		"backgroundColor":"#fff",
+		"fontSize":"14px",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/addbook/addbook",
+				"text":"通讯录",
+				"iconPath":"static/addressBook.png",
+				"selectedIconPath":"static/addressBook1.png"
+			},
+			{
+				"pagePath":"pages/find/find",
+				"text":"发现",
+				"iconPath":"static/discover.png",
+				"selectedIconPath":"static/discover1.png"
+			}
+		]
+	}
+}
