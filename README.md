@@ -1,3 +1,7 @@
+# 效果图
+![cmd-markdown-logo1](http://yikuaime.oss-cn-shenzhen.aliyuncs.com/images/addressBook1.png)
+![cmd-markdown-logo2](http://yikuaime.oss-cn-shenzhen.aliyuncs.com/images/addressBook2.png)
+
 # 组件说明
 
 **基于uniapp按字母顺序查找通讯录**
